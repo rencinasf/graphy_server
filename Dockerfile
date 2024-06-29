@@ -1,4 +1,4 @@
-FROM node:hydrogen-buster
+FROM node:20.14-bookworm-slim
 
 # Update the package list and upgrade git and git-man to the recommended versions
 RUN apt-get update && \
